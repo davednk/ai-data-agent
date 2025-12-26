@@ -25,7 +25,7 @@ if not check_password():
     st.stop()
 
 # 2. SETUP
-API_KEY = "YOUR_GEMINI_API_KEY"
+API_KEY = "AIzaSyAv3GRjjJypWmC6Kg3JzUgSHrmjS-v9-cY"
 genai.configure(api_key=API_KEY)
 llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", google_api_key=API_KEY)
 
